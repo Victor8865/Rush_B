@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+ <input placeholder="Enter the Day you want to check" class='input' bindinput='input'/>
+<button type="default" bindtap='getinfo'> Check </button>
+
+ <text>Group 0</text>
+
+ <view>
+ <text>{{table}}</text>
+ </view>
+</view>
