@@ -1,11 +1,16 @@
 <!--index.wxml-->
 <view class="container">
- <input placeholder="Enter the Day you want to check" class='input' bindinput='input'/>
-<button type="default" bindtap='getinfo'> Check </button>
+  <!-- <input placeholder="Enter the Day you want to check" class='input' bindinput='input'/>  -->
+<radio-group class="radio-group" bindchange="radioChange" >
+    <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+</radio-group>
+<!-- <button type="default" plain='plain' bindtap='getinfo'> Check </button> -->
+ <text>Design by Group 0</text>
 
- <text>Group 0</text>
 
- <view>
+ <view id="course">
  <text>{{table}}</text>
  </view>
 </view>

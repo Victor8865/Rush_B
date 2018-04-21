@@ -5,7 +5,7 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#FF7D4A",
     "navigationBarTitleText": "ClassTimeTable",
     "navigationBarTextStyle":"black"
   }

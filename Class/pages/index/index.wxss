@@ -27,3 +27,18 @@ padding: 5px;
 .usermotto {
   margin-top: 200px;
 }
+ #course{
+ background-color: lightblue;
+ border-radius: 10px;
+} 
+radio-group{
+  margin-left: 10px;
+  font-size: 40rpx;
+  margin-bottom: 10px;
+  display: flex;  
+  border-radius: 10px;
+  flex-direction: column;
+}
+text{
+  margin-bottom: 15px;
+}
